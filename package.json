@@ -9,9 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run lambda:build",
-    "lambda:build": "netlify-lambda build functions/src",
-    "lambda:serve": "netlify-lambda serve functions/src"
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
   },
   "repository": {
     "type": "git",
