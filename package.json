@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run lambda:build",
     "lambda:build": "netlify-lambda build functions/src",
-    "Lambda:serve": "netlify-lambda serve functions/dist"
+    "lambda:serve": "netlify-lambda serve functions/src"
   },
   "repository": {
     "type": "git",
